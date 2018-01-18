@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.barra_superior {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  color: rgb(27, 25, 25);
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  color: rgb(187, 187, 187);
+  font-size: 18px;
+  float: right;
+  margin-top: 20px;
+}
+
+nav a {
+  color: rgb(187, 187, 187);
+  text-decoration: none;
+}
+
+.btn_destaque {
+  background-color: rgb(255, 77, 77);
+  color: white;
+  padding: 12px 40px;
+  border-radius: 3px;
+  margin-left: 25px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sec01 {
+  height: 640px;
+  color: black;
+  background-image: url('../img/chicago.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sec01 p.titulo {
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.sec01 p {
+  font-size: 24px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+
+
+.sec02 {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.sec02 p {
+  font-size: 28px;
+  text-align: center;
+}
+
+.sec02 img {
+  width: 100%;
+}
+
+.sec03 {
+  background-color: rgb(239, 243, 249);
+  height: 664px;
+}
+
+.sec03 p{
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 150px;
+}
+
+
+.metade_1 {
+  text-align: center;
+  width: 40%;
+  float: left;
+}
+
+.metade_2 {
+  width: 60%;
+  float: left;
+}
+
+.metade_img {
+  background-image: url('../img/clear_sky.jpg');
+  background-position: right;
+  height: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.direitos {
+  background-color: rgb(255, 77, 77);
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  height: 40px;
+  font-size: 16px; 
+}
+
+.direitos a {
+  color: white;
+  text-decoration: none;
+}
+
+.rodape_33 {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
