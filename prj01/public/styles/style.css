@@ -51,6 +51,11 @@ nav a {
 .sec01 p.titulo {
   font-size: 30px;
   padding-top: 100px;
+  margin-left: 15px;
+}
+
+.sub_titulo {
+  margin-left: 15px;
 }
 
 .sec01 p {
@@ -122,8 +127,24 @@ nav a {
   text-decoration: none;
 }
 
-.rodape_33 {
+.rodape_logo {
   float: left;
-  width: 33%;
+  width: 100%;
   text-align: center;
+  height: 150px;
+}
+
+.rodape_logo img{
+  width: 200px;
+}
+
+.rodape_logo, .rodape_logo a {
+  color: rgb(136, 136, 136)
+}
+.social {
+  padding-left: 570px;
+}
+
+.social img{
+  width: 50px;
 }
