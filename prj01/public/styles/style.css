@@ -190,6 +190,19 @@ nav a {
   max-width: 95%;
 }
 
+.form_metade input[type=submit] {
+  background-color: rgb(255, 77, 77);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin-left: 25px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 120px;
+  width: 200px;
+}
+
 .form_metade label {
   width: 70px;
   display: block;
