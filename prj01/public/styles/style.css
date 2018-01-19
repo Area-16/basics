@@ -149,6 +149,52 @@ nav a {
   width: 50px;
 }
 
+.sec_form {
+  height: 400px;
+}
+
+.titulo_form {
+  font-size: 26px;
+  text-align: center;
+}
+
+.form_metade {
+  width: 50%;
+  float: left;
+  text-align: initial;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 150%;
+}
+
+.form_metade fieldset {
+  height: 400px;
+}
+
+.form_metade address {
+  padding-top: 25px;
+  padding-left: 20px;
+  line-height: 300%;
+}
+
+.form_metade input, textarea {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 95%;
+  padding: 5px;
+}
+
+.form_metade textarea {
+  min-height: 120px;
+  max-height: 120px;
+  max-width: 95%;
+}
+
+.form_metade label {
+  width: 70px;
+  display: block;
+}
+
 @media screen and (max-width: 560px) {
   .logo_topo {
     width: 100%;   
